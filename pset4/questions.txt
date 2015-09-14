@@ -1,0 +1,45 @@
+0.  How many different colors does each format support?  
+        JPG: 16.7 million colors, 24 bits; 
+        GIF: 256 colors, 8 bits;
+        PNG: 16.7 million colors, 24 bits;
+        BMP: 4 billion colors, 32 bits
+1.  Which of the formats support animation?
+        Of all the formats, GIFs support animation. 
+2.  what's the difference between lossy and lossless compression?
+        With lossless compression, all of the data in a file can be restored after it is uncompressed.
+        With lossy compression, a file's size is reduced by permanently eliminating information.
+3.  Which of these formats is lossy-compressed?
+        Of the formats, JPEG is lossy-compressed. 
+4.  What happens, technically speaking, when a file is deleted on a FAT file system?
+        Delete or erase commands do not actually remove the file's information from the hard disk. 
+        Instead, the system modifies the filename's first character to signal that the file has been deleted.
+        Then, the file's FAT clusters are moved to the hard drive's list of free cluster. 
+        The actual file data is never touched; instead, the file's reference is removed from the directory. 
+5.  What can someone like you do to ensure (with high probability) that files you delete cannot be recovered?
+        Physically destroying the drive, rendering it unusable
+        Degaussing the drive to randomize the magnetic domains
+        Overwriting the drive's data so that it cannot be recovered 
+6.  What's stdint.h?
+        
+7.  What's the point of using uint8_t, uint32_t, int32_t, and uint16_t in a program?
+
+8.  How many bytes is a byte, a dword, a long, and a word, respectively?
+
+9.  What must the first two bytes of any BMP file be?
+
+10. What's the difference between bfSize and biSize?
+
+11. What does it mean if biHeight is negative?
+
+12. What fied in BAPINFOHEADER specificies the BMP's color depth?
+
+13. Why might fopen return NULL in copy.c:37?
+
+14. Why is the third argument to fread always 1 in our code?
+
+15. What value does copy.c:70 assign padding if bi.biWidth is3?
+
+16. What does fseek do?
+
+17. What is SEEK_CUR?
+18. TODO
